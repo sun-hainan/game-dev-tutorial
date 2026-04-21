@@ -4,35 +4,58 @@
 
 ---
 
-## 📖 教程结构
+## 📖 整体架构
 
 ```
-Stage 1：C++ 基础（2-3个月）
-Stage 2：Unity 2D/3D 开发（2-3个月）
-Stage 3：进阶 + 项目实战（3-6个月）
-Stage 4：求职 + 作品集整理（持续）
+game-dev-tutorial/
+├── README.md                        ← 你在这里
+├── Stage1_CPlusPlus/                ← C++ 基础（2-3个月）
+├── Stage2_Unity_CSharp/             ← Unity 2D/3D 开发（2-3个月）
+├── Stage3_Advanced_Projects/         ← 设计模式 + 进阶技术 + 3D 项目（3-6个月）
+├── Stage4_Job_Preparation/           ← GitHub 作品集 + 简历 + 面试（持续）
+├── Stage5_MMO_Special/               ← MMO 服务器专题（帧同步/KCP/GameServer）
+└── Stage6_SLG_Special/               ← SLG 专题（图格系统/A*/战斗/同步）
 ```
+
+## 🗺️ 学习路线图
+
+```
+Stage 1 (C++)  → Stage 2 (Unity)  → Stage 3 (进阶)  → Stage 4 (求职)
+     │               │                 │                │
+     └─ 语法/内存     └─ 引擎/组件       └─ 设计模式      └─ 作品集
+                        └─ 物理/UI      └─ 3D 项目
+                                          └─ MMO/SLG 专题
+```
+
+**前置要求**：会打字、会用电脑，无需编程基础。
 
 ---
 
-## 📚 Stage 1：C++ 基础 — 章节列表
+## 📚 各 Stage 内容概览
 
-### Chapter 01：C++ 环境搭建与第一个程序
-✅ 工具：VS2026 + Unity Hub  
-✅ 理解 main() 入口  
-✅ 第一个可运行程序
+| Stage | 主题 | 章数 | 预计时长 | 产出 |
+|-------|------|------|---------|------|
+| Stage 1 | C++ 基础（指针/内存/STL） | 15 章 | 2-3 个月 | 扎实编程功底 |
+| Stage 2 | Unity + C# 游戏开发 | 15 章 | 2-3 个月 | 完整 2D 游戏 |
+| Stage 3 | 设计模式 + 3D 项目 | 3 章 | 3-6 个月 | 进阶作品 |
+| Stage 4 | 求职 + 作品集 | 3 章 | 持续 | 简历 + GitHub |
+| Stage 5 | MMO 服务器（帧同步/GameServer） | 8 章 | 2-3 个月 | 网络同步专家 |
+| Stage 6 | SLG 专题（A*/战斗系统） | 8 章 | 2-3 个月 | SLG 开发者 |
 
-### Chapter 02：变量、数据类型与运算符
-✅ 6 种基本数据类型  
-✅ 算术/赋值/比较/逻辑运算符  
-✅ 类型转换 + const 常量
+---
 
-### Chapter 03：流程控制（条件语句 + 循环）
-✅ if / else, switch  
-✅ for, while, do...while  
-✅ break, continue, 嵌套循环
+## 🚀 快速开始
 
-> 🔜 Chapter 04：函数与模块化编程（生成中...）
+1. **选一个起点**
+   - 完全零基础 → 从 Stage 1 Chapter 01 开始
+   - 已有 C++ 基础 → 从 Stage 2 开始
+   - 想专攻服务器/网络 → 从 Stage 5 开始
+
+2. **阅读章节**：按顺序读，做好笔记
+
+3. **动手实践**：每个章节都有练习题，先自己写，再对比答案
+
+4. **项目检验**：完成每个 Stage 后完成对应的实战项目
 
 ---
 
@@ -40,17 +63,9 @@ Stage 4：求职 + 作品集整理（持续）
 
 | 软件 | 版本 | 用途 |
 |-----|------|------|
-| Visual Studio Community | 2026 | C++ IDE |
+| Visual Studio Community | 2022+ | C++ / C# IDE |
 | Unity Hub | 3.3.3+ | Unity 管理器 |
 | Git + GitHub CLI | 最新 | 版本控制 |
-
----
-
-## 🚀 使用方法
-
-1. **阅读章节**：按顺序阅读每个 Chapter
-2. **动手实践**：每个章节都有练习题，先自己写，再对比答案
-3. **项目检验**：完成每个 Stage 后，做对应的实战项目
 
 ---
 
